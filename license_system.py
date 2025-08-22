@@ -19,9 +19,9 @@ import time
 
 # Configuration
 class Config:
-    SECRET_KEY = os.environ.get('SECRET_KEY') or 'your-secret-key-change-this-in-production'
+    SECRET_KEY = os.environ.get('SECRET_KEY') or 'wigga'
     DATABASE_URL = 'database.db'
-    DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK_URL') or 'https://discord.com/api/webhooks/YOUR_WEBHOOK_URL_HERE'
+    DISCORD_WEBHOOK_URL = os.environ.get('DISCORD_WEBHOOK_URL') or 'https://discord.com/api/webhooks/1370023737814028318/ogERpIPBsKk3JhNsYDBsuu8we4Zhg_HA-HqV-9PkCJE9ZM2vvp4GGkUIrJra9lJnrp_1'
 
 # Database Models
 class Database:
